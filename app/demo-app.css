@@ -1,0 +1,52 @@
+.title {
+	position: fixed;
+   	top: 0;
+   	left: 0;
+   	right: 0;
+
+   	background-color: rgb(221,0,49);
+
+   	font-family: 'Helvetica';
+   	text-align: center;
+   	font-weight: 400;
+   	font-size: 18pt;
+   	color: white;
+
+   	padding: 6px;
+ }
+
+ .subtitle {
+   	background-color: rgb(25,118,210);
+
+   	font-family: 'Helvetica';
+   	font-weight: 100;
+   	font-size:16px;
+   	color: white;
+
+   	padding: 6px;
+   	padding-top:44px;
+ }
+
+ .dataTable {
+   	border-color: black;
+   	border-width: 0;
+   	border-style: solid;
+
+   	margin: 0 auto;
+   	margin-top: 10px;
+
+   	width: 50%;
+   	min-width: 240px;
+ }
+
+ .dataTable th {
+   	border-color: black;
+   	border-width: 1;
+   	border-style: solid;
+ }
+
+ .dataTable td {
+   	border-color: black;
+   	border-width: 1;
+   	border-style: solid;
+}

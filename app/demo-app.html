@@ -1,0 +1,26 @@
+<div class="title">Angular 2 Test</div>
+
+<div class="container">
+	<div class="subtitle">
+		JSON Data Test:
+		<input type="text" #textURL value={{dataURL}}>
+		<input type="submit" (click)=setJsonURL(textURL.value) value="Cambiar URL">
+	</div>
+
+	<table class="dataTable">
+	 	<tr>
+	      	<th>id</th>
+	      	<th>First Name</th>
+	      	<th>Last Name</th>
+	      	<th>Gender</th>
+	      	<th>Email</th>
+	 	</tr>
+	    <tr *ngFor="#objData of data">
+	      	<td>{{objData.id}}</td>
+	      	<td>{{objData.first_name}}</td>
+	      	<td>{{objData.last_name}}</td>
+	      	<td>{{objData.gender}}</td>
+	      	<td>{{objData.email}}</td>
+	    </tr>
+	</table>
+</div>
